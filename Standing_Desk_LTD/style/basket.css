@@ -1,3 +1,9 @@
+.basket-container{
+  position: realative;
+  left: 20%;
+  right: 20&;
+}
+
 .basket-card-container {
   display: flex;
   justify-content: space-evenly;
