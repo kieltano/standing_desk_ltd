@@ -1,7 +1,16 @@
+.card_container{
+display: flex;
+width: 80%;
+}
+
+.row_container{
+  justify-content: space-around;
+}
+
 .card {
   position: relative;
-  width: 250px;
-  height: 250px;
+  width: 600px;
+  height: 200px;
   color: #2e2d31;
   background: #131313;
   overflow: hidden;

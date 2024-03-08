@@ -1,17 +1,21 @@
-.basket-container{
-  position: realative;
-  left: 20%;
-  right: 20&;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2; /* Add a background color for better visibility */
 }
 
 .basket-card-container {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-content: center; /* Center the grid items horizontally */
+  gap: 20px;
 }
 
 .card {
-  width: 350px;
-  height: 160px;
+  width: 100%; /* Adjust the width to fill the container */
   background: #f7f9f9;
   padding: 10px;
   border-radius: 16px;
@@ -19,11 +23,25 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.checkout-card {
+  width: 25%; /* Adjust the width to fill the container */
+  background: #f7f9f9;
+  padding: 10px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 .card-title {
   font-size: 1.4em;
   font-weight: 800;
+  margin-bottom: 10px; /* Add some spacing below the title */
 }
 
 .card-text {
@@ -41,5 +59,5 @@
 }
 
 .card-button:hover {
-  background-color: #272C30;
+  background-color: #272c30;
 }
