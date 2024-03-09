@@ -3,7 +3,7 @@ body, html {
   padding: 0;
 }
 
-.nav-bar {
+.nav-bar-container {
   background-color: aqua;
   width: 100%;
   height: 50px;
@@ -61,5 +61,5 @@ body, html {
 }
 
 .nav-bar-logo {
-  /* Style your logo here */
+  /* Style logo here */
 }

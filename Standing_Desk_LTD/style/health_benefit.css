@@ -1,27 +1,17 @@
-.card_container{
-display: flex;
-width: 80%;
+.health-benefit-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 30px;
+  margin-top: 100px;
+  padding: 5%;
 }
 
-.row_container{
-  justify-content: space-around;
-}/* Define CSS variables for reuse */
 :root {
   --background-color: #131313;
   --text-color: #2e2d31;
   --content-background-color: #f2f2f2;
-}
-
-/* Main layout styles */
-.card-container {
-  display: flex;
-  justify-content: center;
-  width: 80%;
-}
-
-.row-container {
-  display: flex;
-  justify-content: space-around;
 }
 
 /* Card styles */
