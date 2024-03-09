@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-.contact-banner{
+.contact-banner {
   background-color: blanchedalmond;
 }
 
@@ -20,14 +20,14 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-width: 350px;
+  max-width: 500px;
   background-color: #fff;
   padding: 20px;
   border-radius: 20px;
   position: relative;
 }
 
-.contact-form-row{
+.contact-form-row {
   display: flex;
   justify-content: flex-start;
 }
@@ -37,11 +37,15 @@
 }
 
 .contact-form label .input {
-  width: 100%;
+  width: 80%;
   padding: 10px;
   outline: 0;
   border: 1px solid rgba(105, 105, 105, 0.397);
   border-radius: 10px;
+}
+
+.message-form input {
+  width: 100%; /* Set the width of the input to 100% */
 }
 
 .contact-form label .input + span {
@@ -70,6 +74,7 @@
 }
 
 .submit-button {
+  width: 97%;
   border: none;
   outline: none;
   background-color: royalblue;
