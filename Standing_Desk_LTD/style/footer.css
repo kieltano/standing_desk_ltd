@@ -1,11 +1,30 @@
-.footer {
-  position: absolute;
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center footer content horizontally */
+  justify-content: center; /* Center footer content vertically */
+  position: fixed; /* Change to fixed position */
   bottom: 0;
   left: 0;
-  z-index: 10;
-  width: 100%;
-  height: 50px;
+  width: 100%; /* Set width to 100% of the screen */
+  max-width: 100vw; /* Set maximum width to the viewport width */
+  height: 30px; /* Decreased footer height */
   background-color: aqua;
+  padding: 10px 0; /* Increased padding to fill where links start */
+}
+
+.footer {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column; /* Display links and text in a column */
+  align-items: center; /* Center items horizontally */
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black; /* Adjust link color as needed */
+  margin: 0 5px; /* Add margin for spacing between links */
+}
+
+.footer-text {
+  margin-top: 3px; /* Add margin to separate text from links */
 }

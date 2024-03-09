@@ -5,7 +5,102 @@ width: 80%;
 
 .row_container{
   justify-content: space-around;
+}/* Define CSS variables for reuse */
+:root {
+  --background-color: #131313;
+  --text-color: #2e2d31;
+  --content-background-color: #f2f2f2;
 }
+
+/* Main layout styles */
+.card-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.row-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Card styles */
+.card {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  color: var(--text-color);
+  background: var(--background-color);
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.temporary-text {
+  font-weight: bold;
+  font-size: 24px;
+  padding: 6px 12px;
+  color: var(--content-background-color);
+}
+
+.card-content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  background: var(--content-background-color);
+  border-top-left-radius: 20px;
+  transform: translateY(150px);
+  transition: transform .25s;
+}
+
+.card-content::before {
+  content: '';
+  position: absolute;
+  top: -47px;
+  right: -45px;
+  width: 100px;
+  height: 100px;
+  transform: rotate(-175deg);
+  border-radius: 50%;
+  box-shadow: inset 48px 48px var(--content-background-color);
+}
+
+.card-title {
+  color: var(--background-color);
+  font-weight: bold;
+  line-height: 15px;
+}
+
+.card-subtitle {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.card:hover .card-content {
+  transform: translateY(0);
+}
+
+.card:hover .card-description {
+  opacity: 1;
+  transition-delay: .25s;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--background-color);
+  color: var(--content-background-color);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
 
 .card {
   position: relative;

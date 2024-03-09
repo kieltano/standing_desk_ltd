@@ -1,4 +1,41 @@
 .home-banner{
+  background-color: #272c30;
   height: 500px;
-  background-color: black;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px; /* Add some bottom padding to create space for the button */
+  position: relative; /* Make the container a positioning context for absolute positioning */
+}
+
+.paragraphs-container {
+  display: flex;
+  flex-direction: column; /* Align paragraphs vertically */
+  align-items: flex-start; /* Align paragraphs to the start */
+  width: 80%; /* Set the width of the container */
+}
+
+.paragraphs-container p {
+  margin: 20px 0; /* Add margin between paragraphs */
+}
+
+.shop-now-button {
+  position: absolute;
+  top: calc(100% + 20px); /* Position the button at the bottom of the container */
+  right: 300px; /* Align the button to the right */
+  cursor: pointer;
+  background-color: rgb(15, 20, 25);
+  color: #f7f9f9;
+  font-size: 1.15em;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-decoration: none; /* Remove underline */
+}
+
+.shop-now-button:hover {
+  background-color: #272c30;
 }
