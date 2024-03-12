@@ -1,10 +1,9 @@
 .health-benefit-container{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   justify-content: center;
-  align-items: flex-start;
+  gap: 15%;
   margin: 30px;
-  margin-top: 100px;
+  margin-top: 2%;
   padding: 5%;
 }
 

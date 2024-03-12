@@ -5,35 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/basket.css">
     <link rel="stylesheet" href="../style/footer.css">
+    <link rel="stylesheet" href="../style/navbar.css">
+
     <title>Shopping Cart</title> <!-- Add a title for better SEO -->
 </head>
 <body>
-  <div class="basket-container">
-      <h1 class="cart-text">Shopping Cart</h1>
-      <div class="basket-card-container">
-          <div class="cart-item-container">
-              <div class="item-container">
-                  <div class="card">
-                      <p class="card-text">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
-                  </div>
-              </div>
-          </div>
-          <div class="cart-item-container">
-              <div class="card">
-                  <p class="card-text">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
-              </div>
-          </div>
+
+  <div class="nav-bar-container">
+    <div class="nav-bar-content">
+      <div class="nav-bar-logo">
+        <img src="../images/Standing_desk_LTD_logo.png" alt="Company Logo" />
       </div>
-      <div class="checkout-container">
-          <div class="checkout-card">
-              <h1 class="card-title">Checkout</h1>
-              <p>Item</p>
-              <p>3</p>
-              <p>Shipping</p>
-              <a class="card-button" href="#">PAY</a>
-          </div>
-      </div>
+      <ul class="nav-bar-links">
+        <li><a href="home.html">Home</a></li>
+        <li class="dropdown">
+          <a href="health_benefit.html">Health Benefit</a>
+          <ul class="dropdown-content">
+            <li><a href="#">Option 1</a></li>
+            <li><a href="#">Option 2</a></li>
+            <li><a href="#">Option 3</a></li>
+          </ul>
+        </li>
+        <li><a href="standing_desk.html">Rising Desk</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="basket.html">Cart</a></li>
+      </ul>
+    </div>
   </div>
+
+  <div class="basket-page-container">
+
+    <div class="basket-container">
+        <h1 class="cart-text">Shopping Cart</h1>
+        <div class="basket-card-container">
+            <div class="cart-item-container">
+                <div class="item-container">
+                    <div class="card">
+                        <p class="card-text">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-item-container">
+                <div class="card">
+                    <p class="card-text">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+                </div>
+            </div>
+        </div>
+        <div class="checkout-container">
+            <div class="checkout-card">
+                <h1 class="card-title">Checkout</h1>
+                <p>Item</p>
+                <p>3</p>
+                <p>Shipping</p>
+                <a class="card-button" href="#">PAY</a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="footer-container">
+    <div class="footer">
+      <div class="footer-links">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+      </div>
+      <p class="footer-text"> &copy; Copyright Reserved</p>
+    </div>
+  </div>
+
 </body>
 
 </html>
