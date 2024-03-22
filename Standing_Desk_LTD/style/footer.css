@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center; /* Center footer content horizontally */
   justify-content: center; /* Center footer content vertically */
-  position: fixed; /* Change to fixed position */
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%; /* Set width to 100% of the screen */
