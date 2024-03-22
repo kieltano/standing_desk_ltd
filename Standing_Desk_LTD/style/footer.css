@@ -9,7 +9,7 @@
   width: 100%; /* Set width to 100% of the screen */
   max-width: 100vw; /* Set maximum width to the viewport width */
   height: 30px; /* Decreased footer height */
-  background-color: aqua;
+  background-color: #F5EEE6;
   padding: 10px 0; /* Increased padding to fill where links start */
 }
 

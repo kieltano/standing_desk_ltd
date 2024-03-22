@@ -1,19 +1,43 @@
+h1{
+  font-size: 60px;
+  margin: 0;
+  margin-left: 150px;
+}
+
 .contact-parent-container {
   display: grid;
   justify-content: center;
   align-items: center;
-  margin-top: 0;
+  margin-top: 75px;
+  margin-bottom: 125px;
 }
 
 .contact-banner {
-  background-color: blanchedalmond;
+  background-image: url(../images/contact_banner.png);
+  background-size: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Align items vertically */
+  align-items: center;
 }
 
 .contact-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  border: 2px solid black; /* Add border */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  padding: 20px; /* Add padding inside the container */
+  margin: 20px auto; /* Center the container horizontally */
+  max-width: 500px; /* Set maximum width for the container */
+}
+
+.banner-text{
+  margin: 0;
+  margin-left: -65%;
+  color: white;
+  font-size: 15PX;
 }
 
 .contact-form {
@@ -45,7 +69,7 @@
 }
 
 .message-form input {
-  width: 100%; /* Set the width of the input to 100% */
+  width: 100%;
 }
 
 .contact-form label .input + span {
