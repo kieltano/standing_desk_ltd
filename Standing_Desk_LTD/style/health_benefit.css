@@ -1,174 +1,40 @@
-.health-benefit-container{
-  display: grid;
-  justify-content: center;
-  gap: 15%;
-  margin: 30px;
-  margin-top: 2%;
-  padding: 5%;
+.health-benefit-container {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 150px;
 }
 
-:root {
-  --background-color: #131313;
-  --text-color: #2e2d31;
-  --content-background-color: #f2f2f2;
+.health-benefit-content-container {
+  font-family: Arial, sans-serif;
 }
 
-/* Card styles */
-.card {
-  position: relative;
-  width: 600px;
-  height: 200px;
-  color: var(--text-color);
-  background: var(--background-color);
-  overflow: hidden;
-  border-radius: 20px;
+.health-benefit-container h1 {
+  color: #333;
 }
 
-.temporary-text {
-  font-weight: bold;
-  font-size: 24px;
-  padding: 6px 12px;
-  color: var(--content-background-color);
+.health-benefit-container h2 {
+  color: #444;
 }
 
-.card-content {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 20px;
-  background: var(--content-background-color);
-  border-top-left-radius: 20px;
-  transform: translateY(150px);
-  transition: transform .25s;
+.health-benefit-container h3 {
+  color: #666;
 }
 
-.card-content::before {
-  content: '';
-  position: absolute;
-  top: -47px;
-  right: -45px;
-  width: 100px;
-  height: 100px;
-  transform: rotate(-175deg);
-  border-radius: 50%;
-  box-shadow: inset 48px 48px var(--content-background-color);
+.health-benefit-container p,
+.health-benefit-container ul {
+  color: #777;
 }
 
-.card-title {
-  color: var(--background-color);
-  font-weight: bold;
-  line-height: 15px;
+.health-benefit-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
-.card-subtitle {
-  font-size: 12px;
-  margin-bottom: 10px;
+.health-benefit-container a {
+  color: blue;
 }
 
-.card-description {
-  font-size: 14px;
-  opacity: 0;
-  transition: opacity .5s;
-}
-
-.card:hover .card-content {
-  transform: translateY(0);
-}
-
-.card:hover .card-description {
-  opacity: 1;
-  transition-delay: .25s;
-}
-
-.card-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: var(--background-color);
-  color: var(--content-background-color);
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-
-.card {
-  position: relative;
-  width: 600px;
-  height: 200px;
-  color: #2e2d31;
-  background: #131313;
-  overflow: hidden;
-  border-radius: 20px;
-}
-
-.temporary_text {
-  font-weight: bold;
-  font-size: 24px;
-  padding: 6px 12px;
-  color: #f8f8f8;
-}
-
-.card_title {
-  font-weight: bold;
-}
-
-.card_content {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-    /* edit the width to fit card */
-  width: 100%;
-  padding: 20px;
-  background: #f2f2f2;
-  border-top-left-radius: 20px;
-    /* edit here to change the height of the content box */
-  transform: translateY(150px);
-  transition: transform .25s;
-}
-
-.card_content::before {
-  content: '';
-  position: absolute;
-  top: -47px;
-  right: -45px;
-  width: 100px;
-  height: 100px;
-  transform: rotate(-175deg);
-  border-radius: 50%;
-  box-shadow: inset 48px 48px #f2f2f2;
-}
-
-.card_title {
-  color: #131313;
-  line-height: 15px;
-}
-
-.card_subtitle {
-  display: block;
-  font-size: 12px;
-  margin-bottom: 10px;
-}
-
-.card_description {
-  font-size: 14px;
-  opacity: 0;
-  transition: opacity .5s;
-}
-
-.card:hover .card_content {
-  transform: translateY(0);
-}
-
-.card:hover .card_description {
-  opacity: 1;
-  transition-delay: .25s;
-}
-
-.card__button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
+.health-benefit-container a:hover {
+  text-decoration: underline;
 }
