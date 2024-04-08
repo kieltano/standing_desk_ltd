@@ -1,11 +1,11 @@
 .standing-desk-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 30px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 30px;
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 .card {
@@ -58,13 +58,15 @@
   margin-bottom: 20px;
 }
 
-.card__button {
-  display: inline-block;
+.add-to-cart-button {
+  position: absolute;
   padding: 10px 20px;
   background-color: #000;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
+  bottom: 40;
+  right: -20;
 }
 
 .card:hover {
