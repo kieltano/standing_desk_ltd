@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
+  height: auto;
   margin: 0;
   background-color: #f2f2f2;
   padding: 10%;
@@ -32,37 +32,81 @@
 }
 
 
-.card, .checkout-card {
+.basket-product-card {
+  display: flex;
+  justify-content: space-around;
   width: 80%;
   background: #f7f9f9;
   padding: 10px;
   border-radius: 16px;
 }
 
+.checkout-card {
+  width: 100%;
+  background: #f7f9f9;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.card-card-image{
+  width: 115px;
+  height: 150px;
+  border-radius: 5%;
+  margin: 15px;
+}
+
 .cart-text {
   margin-top: 0;
 }
 
-.card-title {
+
+.checkout-tittle {
   font-size: 1.4em;
   font-weight: 800;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
 }
 
 .card-text {
   font-weight: 500;
 }
 
-.card-button {
+.basket-product-card-text{
+  margin-top: 15px;
+  font-weight: 500;
+
+}
+
+.cart-cost-product-line{
+  margin-right: 40px;
+  margin-left: 10px;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-cart-item{
+  display: flex;
+  justify-content: space-around;
+}
+
+.pay-button {
   cursor: pointer;
   background-color: rgb(15, 20, 25);
-  color: #f7f9f9;
-  font-size: 1.15em;
+  color: #F5EEE6;
+  font-size: 1.2em;
   border: none;
   padding: 5px 15px;
   border-radius: 15px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 
-.card-button:hover {
-  background-color: #272c30;
+.pay-button:hover {
+  background-color: #F5EEE6;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bolder;
 }

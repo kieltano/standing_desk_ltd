@@ -5,6 +5,11 @@
   margin-bottom: 150px;
 }
 
+iframe{
+  width: auto;
+  height: auto;
+}
+
 .health-benefit-content-container {
   font-family: Arial, sans-serif;
 }

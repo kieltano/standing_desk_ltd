@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/basket.css">
-    <link rel="stylesheet" href="../style/footer.css">
-    <link rel="stylesheet" href="../style/navbar.css">
+    <link rel="stylesheet" href="../style.css">
 
     <title>Shopping Cart</title> <!-- Add a title for better SEO -->
 </head>
@@ -34,32 +33,59 @@
   </div>
 
   <div class="basket-page-container">
-
     <div class="basket-container">
-        <h1 class="cart-text">Shopping Cart</h1>
-        <div class="basket-card-container">
-            <div class="cart-item-container">
-                <div class="item-container">
-                    <div class="card">
-                        <p class="card-text">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
-                    </div>
+      <h1 class="cart-text">Shopping Cart</h1>
+      <div class="basket-card-container">
+        <div class="cart-item-container">
+          <div class="item-container">
+            <div class="basket-product-card">
+              <img src="../images/hydraulic_img2.webp" alt="Desk image" class="card-card-image" />
+              <div class="cart-product-info">
+                <h1 class="cart-product-tittle">Tittle</h1>
+                <p class="basket-product-card-text">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+                <div class="cart-cost-product-line">
+                  <p>QTY: 1</p>
+                  <p class="cart-product-cost">£ XXX</p>
                 </div>
+              </div>
             </div>
-            <div class="cart-item-container">
-                <div class="card">
-                    <p class="card-text">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="checkout-container">
-            <div class="checkout-card">
-                <h1 class="card-title">Checkout</h1>
-                <p>Item</p>
-                <p>3</p>
-                <p>Shipping</p>
-                <a class="card-button" href="#">PAY</a>
+        <div class="cart-item-container">
+          <div class="basket-product-card">
+            <img src="../images/manual_img4.webp" alt="Desk image" class="card-card-image" />
+            <div class="cart-product-info">
+              <h1 class="cart-product-tittle">Tittle</h1>
+              <p class="basket-product-card-text">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+              <div class="cart-cost-product-line">
+                <p>QTY: 2</p>
+                <p class="cart-product-cost">£ XXX</p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+
+      <div class="checkout-container">
+        <div class="checkout-card">
+          <h1 class="checkout-tittle">Checkout</h1>
+          <div class="checkout-item">
+            <div class="flex-cart-item">
+              <p>Item</p>
+              <p>3</p>
+            </div>
+            <div class="flex-cart-item">
+              <p>Shipping</p>
+              <p>Free</p>
+            </div>
+            <div class="flex-cart-item">
+              <p>Total</p>
+              <p>£ XXX</p>
+            </div>
+          </div>
+          <a class="pay-button" href="#">PAY</a>
+        </div>
+      </div>
     </div>
   </div>
 
