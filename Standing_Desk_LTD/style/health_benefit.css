@@ -1,45 +1,36 @@
 .health-benefit-container {
   width: 60%;
   margin: 0 auto;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 100px;
+  margin-bottom: 80px;
 }
 
 iframe{
-  width: auto;
-  height: auto;
+  width: 670px;
+  height: 375px;
 }
 
-.health-benefit-content-container {
+#health-benefit-content-container {
   font-family: Arial, sans-serif;
 }
 
-.health-benefit-container h1 {
+#health-benefit-h1 {
   color: #333;
 }
 
-.health-benefit-container h2 {
+#health-benefit-h2 {
   color: #444;
 }
 
-.health-benefit-container h3 {
+#health-benefit-h3 {
   color: #666;
 }
 
-.health-benefit-container p,
-.health-benefit-container ul {
-  color: #777;
+.health-benefit-text {
+  color: black;
 }
 
 .health-benefit-container ul {
   list-style-type: disc;
   padding-left: 20px;
-}
-
-.health-benefit-container a {
-  color: blue;
-}
-
-.health-benefit-container a:hover {
-  text-decoration: underline;
 }

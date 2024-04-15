@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 /* navbar */
 .nav-bar-container {
   background-color: #F5EEE6;
@@ -39,8 +46,8 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #fff;
-  min-width: 160px;
+  background-color: #F5EEE6;
+  min-width: 200px;
 }
 
 .dropdown-content li {
@@ -65,6 +72,21 @@
   height: auto;
 }
 
+.menu-icon{
+  font-size: 40px;
+  cursor: pointer;
+  display: none;
+  font-size: 2.8rem;
+  color: black;
+  right: 0;
+ }
+
+/* pop up */
+
+
+
+
+
 
 
 /* footer */
@@ -80,7 +102,7 @@
   max-width: 100vw; /* Set maximum width to the viewport width */
   height: 30px; /* Decreased footer height */
   background-color: #F5EEE6;
-  padding: 10px 0; /* Increased padding to fill where links start */
+  padding: 15px 0; /* Increased padding to fill where links start */
 }
 
 .footer {
@@ -97,4 +119,180 @@
 
 .footer-text {
   margin-top: 3px; /* Add margin to separate text from links */
+}
+
+
+
+
+
+
+/* responsive */
+@media (max-width: 600px)
+{
+  /*Navbar*/
+  .nav-bar-container{
+    max-width: auto;
+    height: 40px;
+  }
+
+  .nav-bar-logo img {
+    display: none;
+  }
+
+  .nav-bar-links{
+    font-size: 12.5px;
+    padding: 0;
+  }
+
+  .nav-bar-links li{
+    margin-right: 18px;
+  }
+
+
+  /*Footer*/
+  .footer-container{
+    max-width: auto;
+  }
+
+
+
+  body{
+    max-width: auto;
+    padding: 0%;
+  }
+
+  h1, h2, h3, p, ul, li{
+    font-size: smaller;
+  }
+
+
+
+  /*Home*/
+
+  .home-container {
+    padding-bottom: 20px;
+  }
+
+  #first-slogan{
+    font-size: 19px;
+  }
+
+  #second-slogan{
+    font-size: 16px;
+  }
+
+  .shop-now-button {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .home-banner{
+    background-size: 100%;
+    height: 175px;
+  }
+
+  .shop-now-button {
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+
+   /*health-benefit*/
+
+   .health-benefit-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 55px;
+  }
+
+
+  iframe{
+    width: 250px;
+    height: 145px;
+  }
+
+  /*Rising Desk*/
+  .standing-desk-container{
+    width: 350px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .page-selector-button{
+    padding: 35px;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-right: 0.5px;
+  }
+
+  /*Rising Desk Hydrauic/manual/pneumatic*/
+
+
+
+   /*Contact*/
+
+   .contact-message{
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 5px;
+  }
+
+  .contact-banner {
+    height: 200px;
+  }
+
+  .banner-text {
+    margin-left: -110px;
+  }
+
+  .contact-parent-container {
+    margin-top: 50px;
+    margin-bottom: 145px;
+  }
+
+
+  /*Cart*/
+
+  .cart-text{
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .checkout-container {
+    position: absolute;
+    margin-top: 28px;
+    right: 1px;
+    width: 200px;
+  }
+
+  .basket-product-card {
+    display: flex;
+    justify-content: space-around;
+    width: 125px;
+  }
+
+  .checkout-card {
+    margin-top: -2px;
+    width: 75%;
+    height: fit-content;
+    margin-left: 30px;
+  }
+
+  .card-card-image{
+    display: none;
+  }
+
+  .card-text {
+    font-weight: 200;
+  }
+
+  .cart-cost-product-line{
+    display: block;
+    justify-content: center;
+  }
+
+  .basket-page-container{
+    height: 787.5px;
+  }
 }

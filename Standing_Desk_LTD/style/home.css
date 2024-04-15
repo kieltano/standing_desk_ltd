@@ -59,7 +59,7 @@
 
 .shop-now-button:hover{
   cursor: pointer;
-  background-color: #CCD3CA;
-  color: black;
+  background-color: #DAC0A3;
+  color: #FFCAD4;
   font-weight: bolder;
 }
